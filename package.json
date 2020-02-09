@@ -1,0 +1,14 @@
+{
+  "name": "matchpattern-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "BABEL_VERSION=7.8 jest && BABEL_VERSION=7.7 jest && BABEL_VERSION=7.6 jest && BABEL_VERSION=7.5 jest && BABEL_VERSION=7.4 jest && BABEL_VERSION=7.3 jest && BABEL_VERSION=7.2 jest && BABEL_VERSION=7.1 jest && BABEL_VERSION=7.0 jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^25.1.0"
+  }
+}
